@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Context menu: Download A Picture",
+    "description": "Download pic.",
+    "version": "1.0",
+    "homepage_url": "https://example.com/",
+
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+
+    "permissions": [
+        "activeTab",
+        "contextMenus",
+        "downloads"
+    ]
+}
